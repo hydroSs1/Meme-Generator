@@ -1,5 +1,4 @@
-# Exam #2: "Meme"
-## Student: s287846 Pierro Michele 
+
 
 ## React Client Application Routes
 
