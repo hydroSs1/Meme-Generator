@@ -1,0 +1,444 @@
+body {
+    background-color: grey;
+}
+
+
+figcaption{
+    position: relative;
+    bottom: 20rem;
+    left: 25rem;
+    
+    
+    font-size: 3em;
+    
+
+}
+
+
+.imageMeme{
+    height: 500px;
+    width: 500px;
+}
+
+.image-meme-form{
+  height: 300px;
+  width: 300px;
+}
+
+.text1Drake{
+    position: relative;
+    bottom: 0rem;
+    left: 25rem;
+    
+    
+    font-size: 3em;
+
+}
+
+/* container che contiene sia l'immagine che il testo */
+
+.container{
+    position:relative;
+}
+
+/* posizione textbox meme 1 */
+.top-text-1-drake {
+
+  display: block;
+  text-overflow: ellipsis;
+
+  inline-size: 220px;
+  max-height: 210px;
+  line-height: 30px;
+  overflow-wrap: break-word;
+  
+
+  position: absolute;
+  top: 30px;
+  left: 280px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+  }
+
+  .top-text-1-drake-p {
+
+    display: block;
+    text-overflow: ellipsis;
+  
+    inline-size: 220px;
+    max-height: 210px;
+    line-height: 30px;
+    overflow-wrap: break-word;
+    
+  
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2em;
+    }
+
+  .bot-text-1-drake {
+
+    display: block;
+  text-overflow: ellipsis;
+
+  
+
+  inline-size: 220px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  bottom: 30px;
+  left: 280px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+  }
+ 
+
+  /* posizione textbox meme 2 */
+
+  .top-text-2-farmer{
+
+    display: block;
+    text-overflow: ellipsis;
+
+    
+
+    inline-size: 440px;
+    max-height: 200px;
+    line-height: 30px;
+    overflow-wrap: break-word;
+
+    position: absolute;
+    bottom: 370px;
+    top: 30px;
+    left: 50px;
+    
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2em; 
+
+  }
+  
+  /* posizione textbox meme 3 */
+
+  .bot-text-3-change{
+    display: block;
+    text-overflow: ellipsis;
+
+    
+
+    inline-size: 230px;
+    max-height: 8em;
+    line-height: 1em;
+    overflow-wrap: break-word;
+
+    position: absolute;
+    bottom: 75px;
+    left: 230px;
+    
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2em;
+
+  }
+
+  /* posizione textbox meme 4 */
+.top-text-4-squid {
+
+  display: block;
+  text-overflow: ellipsis;
+
+  inline-size: 220px;
+  max-height: 210px;
+  line-height: 30px;
+  overflow-wrap: break-word;
+  
+
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+}
+.bot-text-4-squid {
+
+  display: block;
+  text-overflow: ellipsis;
+
+  
+
+  inline-size: 220px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+}
+
+/*posizione textbox meme 5 */
+.left-text-5-boyfriend{
+
+  display: block;
+  text-overflow: ellipsis;
+
+  
+
+  inline-size: 220px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+}
+
+.central-text-5-boyfriend{
+
+  display: block;
+  text-overflow: ellipsis;
+
+  
+
+  inline-size: 200px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  bottom: 350px;
+  left: 230px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+}
+.right-text-5-boyfriend{
+
+  display: block;
+  text-overflow: ellipsis;
+
+  
+
+  inline-size: 185px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  top: 300px;
+  left: 330px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+}
+
+
+/*posizione textbox meme 6 */
+
+.bot-text-6-butterfly{
+
+  display: block;
+  text-overflow: ellipsis;
+
+
+  inline-size: 350px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  bottom: 30px;
+  left: 70px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+
+}
+
+.central-text-6-butterfly{
+
+  display: block;
+  text-overflow: ellipsis;
+
+  
+
+  inline-size: 220px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  bottom: 200px;
+  left: 30px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+
+}
+
+.top-text-6-butterfly{
+
+  display: block;
+  text-overflow: ellipsis;
+
+  
+
+  inline-size: 220px;
+  max-height: 8em;
+  line-height: 1em;
+  overflow-wrap: break-word;
+
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em;
+
+}
+
+
+/* CSS PER IL FORM */
+
+.formMeme{
+  width: 80%;
+  background-color: #D3D3D3;
+  display: inline-block;
+  text-align: center;
+}
+.containerForm{
+  background-color: #D3D3D3;
+  border: 2px;
+  border-radius: 25px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif
+  }
+
+.img{
+    display: block;
+    cursor: pointer;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 540px;
+}
+.container .selected{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 4px solid purple;
+}
+.container .imgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0 0 0;
+}
+
+.container .imgContainer img{
+   width: 100px;
+   heigh: 100px; 
+}
