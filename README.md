@@ -1,10 +1,40 @@
+# MEME GENERATOR
+<p align="center">
+ <img alt="Languages" src="https://img.shields.io/badge/Languages-Javascript | React-orange"/>
+ <img alt="Status" src="https://img.shields.io/badge/development-completed-green"/>
+</p>
+Design and implementation of a web application to manage the creation and the visualization of memes.
+## Project Description
+A meme is composed of the following properties:
+- a title,
+- an image,
+- one or more sentences overlaid above the image,
+- a visibility status (public, or protected),
+- and is associated with the name of its creator.
+
+The site already has a set of predefined “background” as the starting image for composing memes. Each image also predefines the number of supported text fields (1, 2 or 3), and the position of such fields over the image (different images will position the text in different locations). The definition of a meme, therefore, simply consists in choosing a background image and in defining the content of the text fields allowed for that image.
+
+Memes may be created uniquely by users of type creator. Memes with “public” visibility are visible to all visitors of the web application, while the “protected” ones are visible to other creators, only.
+
+Anyone who visits the website (i.e., any non-authenticated user) visualizes the list1 of the public memes in the home page; by selecting one of them, he/she will see all its properties: title, image with overlaid text (i.e., the actual meme), and the name of the creator.
+Users of type creator must authenticate with username/password. Once authenticated, a creator visualizes the list of public and protected memes (by all creators); by selecting one of them, he/she will see all its properties. 
+
+### From the page with the list of memes, the creator may:
+- Create a new meme, by defining its title, the background image and the sentences to be used. In this phase, the possible actions are:
+  - Select an image to be used as the meme background.
+  - Write the text of the meme
+  - Save the meme
+- Copy a meme, in two possible ways:
+  - If the meme to be copied belongs to the same creator, make a copy and allow changing title, text content, visibility and text attributes (i.e., all properties except the background image).
+  - If the meme belongs to a different creator, make a copy an allow changing the title and the text. If the copied meme was protected, the new meme must have the same visibility; if it was public, the new one may be saved as public or protected. The copy will belong to the new creator.
+-  Delete one of his/her own memes.
 
 
 ## React Client Application Routes
 
 - Route `/`: indirizza verso la pagina principale del sito su cui avvengono tutte le operazioni visto che ho scelto di visualizzare e creare i meme tramite dei modal.
 - Route `/login`: indirizza verso la pagina che contiene il form per permettere il login degli utenti
-- ...
+
 
 ## API Server
 
